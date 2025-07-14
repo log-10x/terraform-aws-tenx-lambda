@@ -1,7 +1,7 @@
 locals {
   tags = merge(var.tenx_lambda_user_supplied_tags, {
     terraform-module         = "tenx-aws-lambda"
-    terraform-module-version = "v0.1.0"
+    terraform-module-version = "v0.2.0"
     managed-by               = "tenx-terraform"
   })
 
