@@ -1,6 +1,6 @@
 # 10x AWS Lambda Terraform Module
 
-This Terraform module simplifies the deployment of an AWS Lambda function for the 10x engine. It acts as a wrapper to deploy a pre-built Lambda function from a public S3 bucket maintained by Log10x, allowing users to configure the Lambda with custom settings such as memory, timeout, tags, and application-specific options.
+This Terraform module simplifies the deployment of an AWS Lambda function for the 10x engine. It acts as a wrapper to deploy a pre-built function from a public S3 bucket maintained by Log10x, allowing users to configure the Lambda with custom settings such as memory, timeout, tags, and application-specific options.
 
 ## Features
 
